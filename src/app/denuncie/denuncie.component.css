@@ -1,0 +1,62 @@
+.row {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 150px;
+    background-image: url("https://www.opovo.com.br/_midias/png/2020/02/03/bandeira_trans-11620036.png");
+   
+}
+
+.row > h2 {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: overline white;
+    margin-top: 35px;
+    
+}
+
+.custom-form   .form-label {
+    padding: 5px 10px;
+}
+
+.custom-form  .btn {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 700px;
+    background-color: #5BCEF9;
+}
+
+
+#imgToggle > img {
+    position: absolute;
+    top: 120px;
+    left: 46%;
+}
+
+#frasesTop > h3 {
+    font-style: italic;
+    color: #F5A9B8;
+    margin-top: 100px;
+    font-size: 18px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-decoration: overline #5ACEFA;
+    
+}
+
+#frasesTop > p {
+    text-align: right;
+    font-weight: bolder;
+    text-decoration: overline ;
+    margin-right: 35px;
+    background-color: #5ACEFA ;
+    border-radius: 5%;
+    margin-left: 1500px ;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+    text-decoration: overline #23CBD4;
+}

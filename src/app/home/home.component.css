@@ -1,0 +1,312 @@
+/*Navbar*/
+
+
+#nav-top > ul > li > a{
+    background-color: #603ACF;
+    display: inline-block;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    box-shadow: 3px 2px;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+#nav-top > ul > li > a:hover{
+    animation-name: navs;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes navs {
+    from {
+        background-color: #603ACF;
+        
+        box-shadow: 3px 2px;  
+    }
+
+    to {
+    background-color: yellow;
+    
+    
+    box-shadow: 5px 5px; 
+
+    }
+}
+
+#nav-top > ul > .log + .log{
+    
+    margin-left: 20px;
+    
+}
+
+#nav-top > ul > .log {
+    
+    margin-left: 1300px;
+    
+}
+
+#nav-top > ul {
+    display: flex;
+    justify-content: space-between; /* Alinha os itens à esquerda e à direita */
+    list-style: none; /* Remove os marcadores de lista */
+    padding: 0;
+}
+
+.nav-item > .nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+
+
+/*container*/
+div > .r  {
+    background-color: red;
+    padding-bottom: 85px;
+    margin-bottom: 0px;
+    color: transparent;
+}
+
+div > .o  {
+    background-color: orange;
+    padding-bottom: 85px;
+    margin-bottom: 0px;
+    color: transparent;
+}
+div > .y  {
+    background-color: yellow;
+    padding-bottom: 85px;
+    margin-bottom: 0px;
+    color: transparent;
+}
+div > .g  {
+    background-color: green;
+    padding-bottom: 85px;
+    margin-bottom: 0px;
+    color: transparent;
+}
+div > .b  {
+    background-color: blue;
+    padding-bottom: 85px;
+    margin-bottom: 0px;
+    color: transparent;
+}
+div > .p  {
+    background-color: purple;
+    padding-bottom: 85px;
+    margin-bottom: 0px;
+    color: transparent;
+}
+
+#container {
+    position: relative;
+}
+
+#container > img {
+    width: 600px;
+    position: absolute;
+    top: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+#container > h1 {
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline red;
+}
+
+/*About*/
+
+#about {
+    background-image: url("../../assets/img/rainbow.jpg");
+}
+#about > h2 {
+    text-align: center;
+    margin-top: 100px;
+    text-decoration:overline orange;
+}
+
+#about > #h2-f {
+    text-align: left;
+    margin-top: 200px;
+    text-decoration:overline yellow;
+    margin-left: 170px;
+    font-size: 20px;
+}
+
+#about > p {
+    text-align: justify;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 5px;
+}
+#about > ul {
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    padding-left: 300px;
+    gap: 20px;
+    padding-right: 320px;
+    margin-top: 60px;
+}
+
+#about > ul > li {
+    background-color: #8FDEF5;
+    
+    padding: 10px;    
+    box-shadow: 0 4px 9px rgb(0, 0, 0, 1);
+
+}
+
+
+
+#about > .transcript {
+    text-align: justify;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 5px;
+    margin-top: 50px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#about > img {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+    margin-top: 40px;
+}
+
+/*Cards*/
+
+#cardTop .card > .card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+#cardTop > h3 {
+    width: 100%;
+    text-decoration:overline green;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+   
+}
+
+
+#cardTop {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+.card {
+    flex: 1 1 300px; /* Permite que cada cartão cresça e encolha, com uma largura mínima de 300px */
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+
+#cardTop > .left, .right, .middle {
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-bottom: 600px;
+}
+
+/*apoio*/
+
+#apoieTop > h5 {
+    color: black;
+    text-decoration: overline blue;
+    position: absolute;
+    top: 2500px;
+    left: 200px;
+    
+      
+}
+
+#apoieTop > a {
+    text-decoration: none;
+    color: black;
+    background-color: #B2749B;
+    width: 100%;
+    font-weight: bolder;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin: 0;
+    top: 2600px;
+    left: 0px;
+    right: 0px;
+}
+
+#apoieTop > img {
+    width: 500px;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    left: 680px;
+    position: absolute;
+    top: 2730px;
+   
+
+
+}
+
+/*footer*/
+footer {
+    background-image: url("https://a-static.mlcdn.com.br/450x450/bandeira-gay-azul-lgbtqia-80cmx140cm-tecido-oxford-100-poliester-presente-brinde/presentebrinde/ban-ox-gay-lgbt/b51e48354f7a2913222b5475f6d13451.jpeg");
+    margin-top: 400px;
+    margin-bottom: 0;
+    height: 500px;
+    width: 100%;
+    
+
+}
+
+footer > img {
+    margin-left: 400px;
+    position: absolute;
+    top: 3460px;
+}
+
+footer > h6 {
+    text-align: end;
+    margin-right: 500px;
+   
+}
+
+footer > a {
+    display: flex;
+    justify-content: end;
+    margin-right: 500px;
+    text-decoration: none;
+    color: #603ACF;
+    font-weight: bolder;
+}
+
+footer > .link-u{
+        margin-top: 50px;
+}
+
+footer > ul > li {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    margin-right: 500px;
+}
+
+footer > ul > li > a{
+    color: #603acf;
+    font-weight: bolder;
+}

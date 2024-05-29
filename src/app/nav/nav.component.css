@@ -1,0 +1,65 @@
+/*Navbar*/
+nav {
+    background-color: #5203A5;
+}
+
+#nav-top > ul > li > a{
+    background-color: yellow;
+    display: inline-block;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    box-shadow: 3px 2px;
+    transition: background-color 0.5s, box-shadow 0.5s;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+#nav-top > ul > li > a:hover{
+    animation-name: navs;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes navs {
+    from {
+        background-color: #603ACF;
+        
+        box-shadow: 3px 2px;  
+    }
+
+    to {
+    background-color: green;
+    
+    
+    box-shadow: 5px 5px; 
+
+    }
+}
+
+#nav-top > ul > .log + .log{
+    
+    margin-left: -30px;
+    margin-right: 20px;
+    
+}
+
+#nav-top > ul > .log {
+    
+    margin-left: 1200px;
+    margin-right: 1px;
+}
+
+#nav-top > ul {
+    display: flex;
+    justify-content: space-between; /* Alinha os itens à esquerda e à direita */
+    list-style: none; /* Remove os marcadores de lista */
+    padding: 0;
+}
+
+.nav-item > .nav-link {
+    color: black;
+    font-weight: bold;
+}
